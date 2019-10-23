@@ -9,7 +9,7 @@ public class WebshopTest {
     void shouldRetrieveStoresProduct() {
         ProductDao dao = new ProductDao();
         dao.insertProduct("Apples");
-        assertThat(dao.listAll().contains("Apples");
+        assertThat(dao.listAll().contains("Apples123");
 
     }
 }
